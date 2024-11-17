@@ -1,4 +1,42 @@
-.button{
+#container-main{
+    background-color: darkblue;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
 
+#btn-housing{
+    background-color: lightblue;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#screen{
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 40px;
+    height: 50px;
+}
+
+.button{
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    height: 8px;
+    width: 15px;
+    text-align: center;
 }
 
