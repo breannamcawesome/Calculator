@@ -3,16 +3,14 @@
 //need to allow only one character in the display at a time
 const screen = document.getElementById("screen");
 
-const numButton = document.getElementsByClassName("number");
-const numValue = document.getElementsByClassName("number").value;
+const numButtons = document.querySelectorAll(".number");
 
-    numButton[0].addEventListener('click', () =>  {
-        
-        screen.textContent = numValue;
-
-
-    });
-
+numButtons.forEach(numButton => {
+numButton.addEventListener('click', () => { 
+    const numValue = numButton.getAttribute('value');       
+    return screen.innerText = numValue;
+});
+});
 
 const add = function(numOne, numTwo) {
 	let currentNum = numOne + numTwo;
