@@ -1,0 +1,89 @@
+.container-main{
+    background-color: rgb(161, 135, 186);
+    border: 3px solid black;
+    margin: 50px auto;
+    padding: 10px;
+    width: 350px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 15px;
+    max-width: 500px;
+    box-shadow: 16px 5px rgb(136, 51, 118);
+}
+
+
+.btn-housing{
+    background-color: rgb(138, 19, 112);
+    border: 2px solid black;
+    margin: 5px;
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 4px 2px 2px inset rgb(107, 12, 85);
+}
+
+
+#screen{
+    width: 80%;
+    background-color: rgb(250, 243, 229);
+    font-family: "Monaco", sans-serif;
+    color: rgb(87, 46, 128);
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    height: 70px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 5px 5px inset;
+}
+
+
+
+button{
+    background-color: rgb(192, 97, 171);
+    color: rgb(87, 48, 126);
+    border: 2px solid black;
+    margin: 12px;
+    padding: 7px;
+    height: 35px;
+    width: 55px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 17px;
+    box-shadow: 5px 5px 2px inset rgb(231, 125, 217);
+}
+
+button:hover {
+    background-color: rgb(151, 63, 168);
+}
+
+button:active {
+    background-color: rgb(160, 57, 126);
+    border: 4px solid rgb(151, 63, 168);
+}
+
+@media only screen and (max-width: 600px) {
+    .display {
+        max-width: 400px;
+    }
+    .operators {
+        flex-direction: row;
+        width: 95%;
+    }
+}
+
+body {
+    background-color: rgb(156, 200, 167);
+
+}
